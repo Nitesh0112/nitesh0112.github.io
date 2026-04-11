@@ -732,9 +732,11 @@ img {
 }
 
 .footer-icons a {
-    font-size: 22px;
-    color: #5a6fd6;
-    transition: 0.3s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;   /* gives equal spacing */
+    height: 40px;
 }
 
 .footer-icons a:hover {
