@@ -653,6 +653,22 @@ img {
         z-index: 1001;
     }
     
+    @media screen and (max-width: 600px) {
+
+    .footer-icons {
+        gap: 15px;
+    }
+
+    .footer-icons a {
+        font-size: 18px;
+    }
+
+    .leetcode-icon {
+        width: 18px;
+        height: 18px;
+    }
+}
+
     .nav-toggle-label span {
         display: block;
         height: 3px;
